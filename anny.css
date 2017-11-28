@@ -1,0 +1,60 @@
+h1{
+  font-family: 'Fredoka One', cursive;
+  font-size: 18pt;
+}
+
+h2{
+  font-family: 'Fredoka One', cursive;
+}
+
+h3{
+	font-family: 'Fredoka One', cursive;
+}
+
+h4{
+	font-family: 'Fredoka One', cursive;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+}
+
+			
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 22%;
+	}
+
+.fa:hover {
+	opacity: 0.7;
+	}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+	}
+
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+	}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+	}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+	}
+
+.fa-soundcloud {
+	background: #ff5500;
+	color: white;
+	}
