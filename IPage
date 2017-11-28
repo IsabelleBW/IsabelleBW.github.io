@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> muS1c website </title>
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		  <link rel="stylesheet" href="./css.css">
+		  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<style>
+
+			header {
+				background-color: black;
+				color: gold;
+			}
+		    body {
+		      text-align: center;
+		      background: url("yvette-de-wit-118721.jpg");
+		      background-size: cover;
+		      background-position: center;
+		      color: white;
+		      font-family: arial;
+		    }
+		    h1{
+		      font-size: 45px;
+		      border: 1px solid black;
+		    }
+
+		    input{
+		      border: 0;
+		      padding: 10px;
+		      font-size: 18px;
+		    }
+		    input[type="submit"] {
+		      background: black;
+		      color: gold;
+		    }
+		    p{
+		    	background-color: black;
+		    	font-size: 18px;
+		    	font-weight: bold;
+		    	font-color: white;
+		    }
+
+
+		</style>
+	</head>
+
+
+	<body>
+		<h1> muS1c </h1>
+		<header>
+			
+			<ul>
+	      	<li><a href="#"> Home </a></li>
+	      	<li><a href="#"> About </a></li>
+	      	<li><a href="#"> Events </a></li>
+	    	</ul>	
+		</header>
+
+
+
+
+
+	<p>Subscribe and receive weekly updates date the latest music events!</p>
+	<input type="email" placeholder="Input your email here!">
+	<input type="submit">
+
+
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="./js.js"></script>
+	</body>
+
+</html>
