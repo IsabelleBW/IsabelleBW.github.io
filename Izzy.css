@@ -44,10 +44,11 @@
 		      color: gold;
 		    }
 		    p{
-		    	background-color: black;
+		    	border: 1px solid black;
+		    	background-color: #8BC34A;
 		    	font-size: 18px;
 		    	font-weight: bold;
-		    	color: white;
+		    	color: black;
 		    }
 		    li {
 		    	display: inline;
