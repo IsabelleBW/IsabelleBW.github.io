@@ -5,7 +5,27 @@
 		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		  <link rel="stylesheet" href="./css.css">
 		  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<style>
+
+			h1{
+		      font-size: 45px;
+		      border: 1px solid black;
+		      color: black;
+		      font-weight: bold;
+		    }
+
+		    h2{
+		      font-size: 55px;
+		      border: 1px solid black;
+		      color: black;
+		  	}
+		  	h3{
+		  		font-size: 45px;
+		      	color: black;
+		      	text-decoration: underline wavy darkblue;
+		  	}
 
 			header {
 				background-color: black;
@@ -16,13 +36,10 @@
 		      background: url("yvette-de-wit-118721.jpg");
 		      background-size: cover;
 		      background-position: center;
-		      color: white;
+		 
 		      font-family: arial;
 		    }
-		    h1{
-		      font-size: 45px;
-		      border: 1px solid black;
-		    }
+		    
 
 		    input{
 		      border: 0;
@@ -39,6 +56,49 @@
 		    	font-weight: bold;
 		    	font-color: white;
 		    }
+		    li {
+		    	display: inline;
+		    	padding: 0px 10px 0px 10px;
+		    }
+
+			.fa {
+			  padding: 20px;
+			  font-size: 30px;
+			  width: 50px;
+			  text-align: center;
+			  text-decoration: none;
+			  margin: 5px 2px;
+			  border-radius: 22%;
+			}
+
+			.fa:hover {
+			    opacity: 0.7;
+			}
+
+			.fa-facebook {
+			  background: #3B5998;
+			  color: white;
+			}
+
+			.fa-youtube {
+			  background: #bb0000;
+			  color: white;
+			}
+
+			.fa-twitter {
+			  background: #55ACEE;
+			  color: white;
+			}
+
+			.fa-instagram {
+			  background: #125688;
+			  color: white;
+			}
+
+			.fa-soundcloud {
+			  background: #ff5500;
+			  color: white;
+			}
 
 
 		</style>
@@ -50,11 +110,23 @@
 		<header>
 			
 			<ul>
-	      	<li><a href="#"> Home </a></li>
-	      	<li><a href="#"> About </a></li>
-	      	<li><a href="#"> Events </a></li>
+	      	<li><a href="linkgoeshere"> Home </a></li>
+	      	<li><a href="linkgoeshere"> About </a></li>
+	      	<li><a href="linkgoeshere"> Events </a></li>
 	    	</ul>	
 		</header>
+
+		
+		<h2> Band of the Week! </h2>
+		 <!-- insert a musical icon here-->
+		<h3> The Idle Gentleman </h3>
+		<p> The Idle Gentlemen is a Sheffield based band, who make great music and are visiting their home town this week! </p>
+		<p>Idle Gentleman’s Social Media Links</p>
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-youtube"></a>
+		<a href="#" class="fa fa-instagram"></a>
+		<a href="#" class="fa fa-soundcloud"></a>
 
 
 
@@ -70,3 +142,6 @@
 	</body>
 
 </html>
+
+
+
