@@ -1,7 +1,80 @@
-body {
 
+a{
+  color: black;
+}
+
+h1{
+  font-size: 18pt;
+}
+p{
+  background-color: #7f0000
+  /*background-color: rgba(0, 0, 255, 0.4);*/
+}
+.col-sm-6 p{
+  margin-top: 20px;
+  padding: 5px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 13pt;
+}
+
+.col-sm-6 iframe{
+  padding: 10px;
+}
+
+.content{
+  width: 100%;
 
 }
+
+.james{
+  background-image: url("./gioia.pics/James.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color:
+  background-blend-mode: multiply;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/*.james:hover .content1{
+  opacity:1;
+  visibility: visible;
+  text-align: center;
+
+}*/
+
+.high_hazels{
+  background-image: url("./gioia.pics/high_hazels.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 20px;
+
+}
+
+.time_sellers{
+  background-image: url("./gioia.pics/the_time_sellers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 20px;
+
+}
+
+.liberty_ship{
+  background-image: url("./gioia.pics/liberty_ships.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 20px;
+}
+
+/*p {
+  background-color: #7f0000
+
+}*/
 
 .col-sm-4{
   text-align: center;
@@ -12,26 +85,65 @@ h1{
   font-size: 18pt;
 }
 
-h2{
+
+
+.artist_name{
   font-family: 'Fredoka One', cursive;
+  color: white;
   text-align: center;
 }
-
- p{
-  font-family: 'Raleway', sans-serif;
+.latest{
+  font-family: 'Fredoka One', cursive;
+  font-size: 15pt;
+  color: white;
 }
+
+
 .home{
   font-size: 22pt;
 
 }
 
-.img_desc {
-position:relative;
-bottom:30px;
-left:0px;
-visibility:hidden;
+.artist_social{
+  font-family: 'Fredoka One', cursive;
+  text-align: left;
+  font-size: 12pt;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 22%;
 }
 
-#wrapper:hover .img_desc {
-visibility:visible;
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
 }
