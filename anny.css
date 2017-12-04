@@ -1,3 +1,4 @@
+
 h1{
   font-family: 'Fredoka One', cursive;
   font-size: 18pt;
@@ -17,8 +18,26 @@ h4{
 
 p{
 	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
 }
 
+.navcolumns {
+	text-align: center;
+}
+
+.navlinks {
+	color: black;
+}
+
+.navbar {
+	background-color: white;
+	padding: 0px 0px 5px 0px;
+}
+
+.generalblurb {
+	margin: 90px 0px 20px 0px;
+}
 			
 .fa {
 	padding: 20px;
@@ -60,5 +79,6 @@ p{
 	}
 
 .emph {
-	color: #388E3C;
+	color: #7f0000;
+	font-weight: 700;
 }
