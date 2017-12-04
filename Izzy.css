@@ -1,18 +1,19 @@
 
 
 			h1{
-		      font-size: 45px;
+		      font-size: 65px;
 		      border: 1px solid black;
 		      color: darkgreen;
 		      font-weight: bold;
 		      font-family: 'Fredoka One', cursive;
+
 		    }
 
 		    h2{
 		      font-size: 55px;
-		      border: 1px solid black;
 		      color: darkgreen;
 		      font-family: 'Fredoka One', cursive;
+		      text-decoration: underline black;
 		  	}
 
 		  	h3{
@@ -22,9 +23,7 @@
 		      	font-family: 'Fredoka One', cursive;
 		  	}
 
-			header {
-				background-color: black;
-			}
+			
 		    body {
 		      text-align: center;
 		      background: url("muS1c banner v2.png");
@@ -41,7 +40,7 @@
 		    }
 		    input[type="submit"] {
 		      background-color: black;
-		      color: gold;
+		      color: darkgreen;
 		    }
 		    p{
 		    	border: 1px solid black;
@@ -56,9 +55,15 @@
 		    }
 
 		    a{
-		    	color: white;
+		    	color: black;
+		    	font-size: 25px;
 
 		    }
+
+		  	.jumbotron {
+
+		  		background: url("muS1c banner v2.png");
+		  	}
 
 			.fa {
 			  padding: 20px;
