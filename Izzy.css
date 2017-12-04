@@ -60,7 +60,10 @@
 
 		    }
 
-		    
+		  	.jumbotron {
+
+		  		background: url("muS1c banner v2.png");
+		  	}
 
 			.fa {
 			  padding: 20px;
