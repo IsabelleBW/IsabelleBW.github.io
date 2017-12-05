@@ -22,6 +22,11 @@ p{
 	font-size: 14px;
 }
 
+small{
+	font-family: 'Raleway', sans-serif;
+	color: #808080;
+}
+
 .navcolumns {
 	text-align: center;
 }
@@ -37,6 +42,11 @@ p{
 
 .generalblurb {
 	margin: 90px 0px 20px 0px;
+}
+
+.emph {
+	color: #7f0000;
+	font-weight: 700;
 }
 			
 .fa {
@@ -78,7 +88,22 @@ p{
 	color: white;
 	}
 
-.emph {
-	color: #7f0000;
-	font-weight: 700;
+#contactForm {
+	font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+	background: black;
+	color: white;
+	border: none;
+}
+
+.footer {
+	text-align: center;
+	bottom: 5px;
+	height: 150px;
+}
+
+.mus1clogo {
+	max-width: 15%;
 }
