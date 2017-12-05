@@ -11,8 +11,21 @@ p{
   /*background-color: rgba(0, 0, 255, 0.4);*/
 
 }
+.navcolumns {
+	text-align: center;
+}
+
+.navlinks {
+	color: black;
+}
+
+.navbar {
+	background-color: white;
+	padding: 0px 0px 5px 0px;
+}
+
 .col-sm-6 p{
-  margin-top: 20px;
+  margin-top: 50px;
   padding: 15px;
   font-family: 'Raleway', sans-serif;
   color: white;
@@ -22,6 +35,20 @@ p{
 
 .col-sm-6 iframe{
   padding: 10px;
+}
+
+.col-sm-6 .first_artists{
+  margin-top: 90px;
+  font-family: 'Fredoka One', cursive;
+  color: white;
+  text-align: center;
+}
+
+.col-sm-6 .first_latest{
+  font-family: 'Fredoka One', cursive;
+  font-size: 15pt;
+  color: white;
+  margin-top: 90px;
 }
 
 .content{
@@ -34,18 +61,10 @@ p{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color:
-  background-blend-mode: multiply;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 20px
 }
 
-/*.james:hover .content1{
-  opacity:1;
-  visibility: visible;
-  text-align: center;
-
-}*/
 
 .high_hazels{
   background-image: url("./gioia.pics/high_hazels.jpg");
@@ -148,4 +167,14 @@ h1{
 .fa-soundcloud {
   background: #ff5500;
   color: white;
+}
+
+.footer {
+	text-align: center;
+	bottom: 5px;
+	height: 150px;
+}
+
+.mus1clogo {
+	max-width: 15%;
 }
