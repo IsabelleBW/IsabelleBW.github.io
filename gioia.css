@@ -9,8 +9,8 @@ h1{
 p{
   background-color: #7f0000
   /*background-color: rgba(0, 0, 255, 0.4);*/
-
 }
+
 .navcolumns {
 	text-align: center;
 }
@@ -92,20 +92,11 @@ p{
   margin-bottom: 20px;
 }
 
-/*p {
-  background-color: #7f0000
-
-}*/
 
 .col-sm-4{
   text-align: center;
   font-family: 'Fredoka One', cursive;
 }
-
-h1{
-  font-size: 18pt;
-}
-
 
 
 .artist_name{
@@ -113,12 +104,12 @@ h1{
   color: white;
   text-align: center;
 }
+
 .latest{
   font-family: 'Fredoka One', cursive;
   font-size: 15pt;
   color: white;
 }
-
 
 .home{
   font-size: 22pt;
