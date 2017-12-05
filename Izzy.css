@@ -1,9 +1,7 @@
 
-
 	h1{
-	  font-size: 45px;
+	  font-size: 18pt;
 	  color: black;
-	  font-weight: bold;
 	  font-family: 'Fredoka One', cursive;
 
 	}
@@ -56,6 +54,8 @@
 		font-size: 25px;
 
 	}
+
+	
 
 	.bandinfo {
 		font-size: 18px;
