@@ -1,27 +1,24 @@
 
 
 	h1{
-	  font-size: 18px;
-	  border: 1px solid black;
-	  color: red;
+	  font-size: 45px;
+	  color: black;
 	  font-weight: bold;
 	  font-family: 'Fredoka One', cursive;
 
 	}
 
 	h2{
-	  font-size: 14px;
-	  color: red;
+	  font-size: 55px;
+	  color: #7f0000;
 	  font-family: 'Fredoka One', cursive;
-	  text-decoration: underline black;
 		}
 
-		h3{
-			font-size: 14px;
-	  	color: red;
-	  	text-decoration: underline black;
+	h3{
+		font-size: 45px;
+	  	color: black;
 	  	font-family: 'Fredoka One', cursive;
-		}
+	}
 
 
 	body {
@@ -30,6 +27,7 @@
 	  background-size: cover;
 	  background-position: center;
 	  font-family: 'Raleway', sans-serif;
+	  color: black;
 	}
 
 
@@ -41,11 +39,11 @@
 	input[type="submit"] {
 	  background-color: black;
 	  color: white;
+	  border-color: black;
 	}
 	p{
-		border: 1px solid black;
-		background-color: black;
-		font-size: 18px;
+		
+		font-size: 30px;
 		font-weight: bold;
 		color: black;
 	}
@@ -60,8 +58,36 @@
 
 	}
 
+	.bandinfo {
+		font-size: 18px;
+	}
+
 	.jumbotron {
 		background-color: white;
+	}
+
+	.smallabout {
+		margin: 90px 0px 0px 0px;
+	}
+
+	.smallabout p{
+		font-size: 20px;
+	}
+
+	.bandchoice {
+		margin: 20px 0px 0px 0px;
+	}
+
+	.bandphoto {
+		margin: 0px 0px 20px 0px;
+	}
+
+	.soundcloud {
+		margin: 20px 0px 20px 0px;
+	}
+
+	.socialmedia {
+		margin: 50px 0px 50px 0px;
 	}
 
 	.navcolumns {
@@ -77,7 +103,10 @@
 		padding: 0px 0px 5px 0px;
 	}
 
-	
+	.footer {
+
+		margin: 50px 0px 0px 0px;
+	}
 
 	.fa {
 	  padding: 20px;
