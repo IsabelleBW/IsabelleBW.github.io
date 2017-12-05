@@ -44,9 +44,21 @@ small{
 	margin: 90px 0px 20px 0px;
 }
 
+.profiles {
+	margin: 10px 0px 0px 0px;
+}
+
+.ourpics {
+   opacity: 0.8;
+}
+
 .emph {
 	color: #7f0000;
 	font-weight: 700;
+}
+
+.spotify {
+	padding-top: 24px;
 }
 			
 .fa {
